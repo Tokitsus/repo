@@ -1,28 +1,54 @@
+Package: com.alexas.auxo
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2127
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.alexas.auxo.deb
+Size: 1834380
+MD5sum: 0c445d8163ab63221b28aaf45c4b9f40
+SHA1: 4f67f8c3c97d11e146ea992c36bee77627d735a3
+SHA256: a8728ceb8ff27184e2ea784ff5310098360e32e1b28c8475103de7c637050f53
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Description: A fantastic re-imagined multitasking bar!
+Tag: cydia::commercial, purpose::extension
+Author: A3tweaks <A3tweaks@gmail.com>
+Depiction: https://username.github.io/repo/depictions/?p=com.alexas.auxo
+Dev: a3tweaks
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Name: Auxo
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.supermamon.newpackage
 Version: 2.0.0-1
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Reposi3 <reposithree@gmail.com>
 Depends: firmware (>7.0), mobilesubstrate
-Architecture: iphoneos-arm
 Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
 Size: 854
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+SHA1: 46bbcd314f5bcb29e05e287f08fe50e6547ea401
+SHA256: b01c426f4e262c901fd0a9dce060d89327af05bdbd203ce7527c133c1bc8cafd
+Section: Tweaks
 Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Name: New Package
 
 Package: com.supermamon.oldpackage
 Version: 1.0.0-1
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Reposi3 <reposithree@gmail.com>
 Depends: firmware (<7.0)
-Architecture: iphoneos-arm
 Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
 Size: 860
 MD5sum: 8c606f0c05217aa2a20949091fe516f0
+SHA1: 44f945218a8f72e24ad69191bfee4a89bb7e9bc0
+SHA256: 2d0cf4ea9ddc1d1be3968c869ddd29bd850eae37ccd9b35d100f72b7aca62f8e
+Section: Tweaks
 Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Name: Old Package
 
