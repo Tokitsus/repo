@@ -11,22 +11,9 @@ SHA256: 9580ce7adf99206384456c0fd8c97085b5e8ef0867757acfa60353d2eaffb9b6
 Section: Tweaks
 Description: auxo for iOS 5 - 6
 
-Package: bag.xml.sigpass
-Name: SigPass
-Version: 1.0.0
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, firmware (>= 5.0)
-Filename: debs/bag.xml.sigpass_0.0.1-9+debug_iphoneos-arm.deb
-Size: 5780
-MD5sum: 6906f706ca8c9a02144aec2995d4c3f4
-SHA1: b16f0fa4c362edd58795e1c2176af9075fbeab98
-SHA256: 7db3d5cf2d43d3b05b2719d9a3871f05bd038311336f2dde3f585cb08607ad1b
-Section: Tweaks
-Description: Sideload unsigned pkpass files!
-
 Package: com.ifile
-Name: iFile
-Version: 1.9.1
+Name: iFile (cracked)
+Version: 1.9.1-1
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, firmware (>= 5.0)
 Filename: debs/eu.heinelt.ifile_1.9.1-1_iphoneos-arm_fabius.deb
@@ -35,4 +22,43 @@ MD5sum: 7ed97b97e6df4407331bc58631a3e6a7
 SHA1: 9d42a109f20b2a3eaef93974d9c5843442ce0947
 SHA256: 10ab9af5fc469135a361cbe9b3bdd8c66ac99686c0a5e37f7e3754806aca751a
 Section: Tweaks
-Description: iFile Cracked
+Description: Cracked iFile
+
+Package: bag.xml.sigpass
+Name: Sigpass
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: debs/bag.xml.sigpass_0.0.1-9+debug_iphoneos-arm.deb
+Size: 5780
+MD5sum: 6906f706ca8c9a02144aec2995d4c3f4
+SHA1: b16f0fa4c362edd58795e1c2176af9075fbeab98
+SHA256: 7db3d5cf2d43d3b05b2719d9a3871f05bd038311336f2dde3f585cb08607ad1b
+Section: Tweaks
+Description: Sideload unsigned pkpass files!
+
+Package: com.folder.enhancer
+Name: Folder Enhancer
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/htif_folderenhancerbrokenapple_4.0.deb
+Size: 1350188
+MD5sum: 58a81ee493438ec08c25078be457fd27
+SHA1: 388ce0c349e8320262f6ab5aac30bafd209cfdd6
+SHA256: 7bc7e1305fb06d662ab7fe9267951c13872e18ba478478872ed18b0be98f0f13
+Section: Tweaks (Untested)
+Description: Untested tweak, use it at your own risk!
+
+Package: com.springtomize2
+Name: Springtomize 2
+Version: 1.4.3-1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/springtomize2_1.4.3-1_appleguider.net.deb
+Size: 207622
+MD5sum: 83af51e0a7624ffb9532c7b0d836681b
+SHA1: 3817b4684c11981b05da0e30ea92daff0cdb85fd
+SHA256: 5de3f23b516c148a0efc378ebcc4dacfc693ab45600a2419aef39e4fd7da56c5
+Section: Tweaks
+Description:

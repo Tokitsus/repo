@@ -74,10 +74,10 @@
                         <div class="section-title">Add to Package Manager</div>
                         <div class="table-group">
                             <div class="table-row row-static" style="font-weight: bold;">Jess Repo</div>
-                            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://tokitsus.github.io/repo/" class="table-row row-link main-row-link">Add to Cydia</a>
-                            <a href="sileo://source/https://tokitsus.github.io/repo/" class="table-row row-link main-row-link">Add to Sileo</a>
-                            <a href="zbra://sources/add/https://tokitsus.github.io/repo/" class="table-row row-link main-row-link">Add to Zebra</a>
-                            <a href="installer://add/https://tokitsus.github.io/repo/" class="table-row row-link main-row-link">Add to Installer</a>
+                            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://newjessy.github.io/repo/" class="table-row row-link main-row-link">Add to Cydia</a>
+                            <a href="sileo://source/https://newjessy.github.io/repo/" class="table-row row-link main-row-link">Add to Sileo</a>
+                            <a href="zbra://sources/add/https://newjessy.github.io/repo/" class="table-row row-link main-row-link">Add to Zebra</a>
+                            <a href="installer://add/https://newjessy.github.io/repo/" class="table-row row-link main-row-link">Add to Installer</a>
                         </div>
                     </div>
                     
@@ -111,21 +111,39 @@
                             </div>
                         </div>
                     </a>
+                    <a onclick="switchPage('com-ifile-page')" class="table-row row-link main-row-link">
+                        <div class="pkg-row-layout">
+                            <img src="icons/iFile (cracked).png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
+                            <div>
+                                iFile (cracked)
+                                <span class="pkg-subtitle">Cracked iFile</span>
+                            </div>
+                        </div>
+                    </a>
                     <a onclick="switchPage('bag-xml-sigpass-page')" class="table-row row-link main-row-link">
                         <div class="pkg-row-layout">
-                            <img src="icons/SigPass.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
+                            <img src="icons/Sigpass.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
                             <div>
-                                SigPass
+                                Sigpass
                                 <span class="pkg-subtitle">Sideload unsigned pkpass files!</span>
                             </div>
                         </div>
                     </a>
-                    <a onclick="switchPage('com-ifile-page')" class="table-row row-link main-row-link">
+                    <a onclick="switchPage('com-folder-enhancer-page')" class="table-row row-link main-row-link">
                         <div class="pkg-row-layout">
-                            <img src="icons/iFile.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
+                            <img src="icons/Folder Enhancer.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
                             <div>
-                                iFile
-                                <span class="pkg-subtitle">iFile Cracked</span>
+                                Folder Enhancer
+                                <span class="pkg-subtitle">Untested tweak, use it at your own risk!</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a onclick="switchPage('com-springtomize2-page')" class="table-row row-link main-row-link">
+                        <div class="pkg-row-layout">
+                            <img src="icons/Springtomize 2.png" onerror="this.src='icons/GLOBEICON.png'" class="pkg-row-icon" alt="Icon">
+                            <div>
+                                Springtomize 2
+                                <span class="pkg-subtitle"></span>
                             </div>
                         </div>
                     </a></div>
@@ -166,25 +184,25 @@
                         </div>
                     </div>
                 </div>
-                <div id="bag-xml-sigpass-page" class="page-view">
+                <div id="com-ifile-page" class="page-view">
                     <div class="back-nav-container">
                         <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
                     </div>
                     <div class="header-section">
                         <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
                             <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
-                                <img src="icons/SigPass.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                                <img src="icons/iFile (cracked).png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
                             </div>
                             <div>
-                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">SigPass</div>
-                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Sideload unsigned pkpass files!</p>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">iFile (cracked)</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Cracked iFile</p>
                             </div>
                         </div>
                     </div>
                     <div class="depiction-header">Features</div>
                     <div class="table-group depiction-group">
                         <div class="depiction-text-block">
-                            <ul class="depiction-list"><li>Allows you to sideload unsigned .pkpass files!</li></ul>
+                            <ul class="depiction-list"><li>iFile cracked, tested in iOS 6</li></ul>
                         </div>
                     </div>
                     <div class="depiction-header">Requirements</div>
@@ -194,25 +212,81 @@
                         </div>
                     </div>
                 </div>
-                <div id="com-ifile-page" class="page-view">
+                <div id="bag-xml-sigpass-page" class="page-view">
                     <div class="back-nav-container">
                         <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
                     </div>
                     <div class="header-section">
                         <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
                             <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
-                                <img src="icons/iFile.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                                <img src="icons/Sigpass.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
                             </div>
                             <div>
-                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">iFile</div>
-                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">iFile Cracked</p>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">Sigpass</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Sideload unsigned pkpass files!</p>
                             </div>
                         </div>
                     </div>
                     <div class="depiction-header">Features</div>
                     <div class="table-group depiction-group">
                         <div class="depiction-text-block">
-                            <ul class="depiction-list"><li>Cracked</li></ul>
+                            <ul class="depiction-list"><li>Allows you to sideload unsigned pkpass files on your idevice!</li><li>Source: https://github.com/bag-xml/SigPass/</li></ul>
+                        </div>
+                    </div>
+                    <div class="depiction-header">Requirements</div>
+                    <div class="table-group depiction-group">
+                        <div class="depiction-text-block">
+                            <ul class="depiction-list"><li>mobilesubstrate, firmware (>= 6.0)</li></ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="com-folder-enhancer-page" class="page-view">
+                    <div class="back-nav-container">
+                        <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
+                    </div>
+                    <div class="header-section">
+                        <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
+                            <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
+                                <img src="icons/Folder Enhancer.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                            </div>
+                            <div>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">Folder Enhancer</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;">Untested tweak, use it at your own risk!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depiction-header">Features</div>
+                    <div class="table-group depiction-group">
+                        <div class="depiction-text-block">
+                            <ul class="depiction-list"><li>If it works, good.</li><li>If else, uninstall it.</li></ul>
+                        </div>
+                    </div>
+                    <div class="depiction-header">Requirements</div>
+                    <div class="table-group depiction-group">
+                        <div class="depiction-text-block">
+                            <ul class="depiction-list"><li>mobilesubstrate, firmware (>= 5.0)</li></ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="com-springtomize2-page" class="page-view">
+                    <div class="back-nav-container">
+                        <div onclick="switchPage('repo-main-page')" class="ios6-back-button"><span>Back</span></div>
+                    </div>
+                    <div class="header-section">
+                        <div class="header-card" style="max-width: 100%; background: transparent; border: none; box-shadow: none; padding: 10px 0; flex-direction: column; gap: 12px; text-align: center;">
+                            <div class="repo-icon-wrapper" style="border-radius: 18px; margin: 0 auto;">
+                                <img src="icons/Springtomize 2.png" onerror="this.src='icons/GLOBEICON.png'" class="repo-icon" alt="Icon">
+                            </div>
+                            <div>
+                                <div style="font-family: -apple-system-headline, sans-serif; font-size: 32px; font-weight: bold; color: #000; text-shadow: 0 1px 0 #fff;">Springtomize 2</div>
+                                <p style="font-size: 15px; margin: 6px 0 0 0; color: #333; line-height: 1.4;"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depiction-header">Features</div>
+                    <div class="table-group depiction-group">
+                        <div class="depiction-text-block">
+                            <ul class="depiction-list"><li>Tested on iOS 6</li></ul>
                         </div>
                     </div>
                     <div class="depiction-header">Requirements</div>
