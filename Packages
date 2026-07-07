@@ -1,0 +1,38 @@
+Package: com.jess.auxo
+Name: auxo
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/org.thebigboss.auxo_1.4-2_iphoneos-arm.deb
+Size: 1818388
+MD5sum: 3c0bf3ae0ee269bf84bb65fb1075c214
+SHA1: 834716f5319b1eacee3588e5c6b18511f1f6403b
+SHA256: 9580ce7adf99206384456c0fd8c97085b5e8ef0867757acfa60353d2eaffb9b6
+Section: Tweaks
+Description: auxo for iOS 5 - 6
+
+Package: bag.xml.sigpass
+Name: SigPass
+Version: 1.0.0
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/bag.xml.sigpass_0.0.1-9+debug_iphoneos-arm.deb
+Size: 5780
+MD5sum: 6906f706ca8c9a02144aec2995d4c3f4
+SHA1: b16f0fa4c362edd58795e1c2176af9075fbeab98
+SHA256: 7db3d5cf2d43d3b05b2719d9a3871f05bd038311336f2dde3f585cb08607ad1b
+Section: Tweaks
+Description: Sideload unsigned pkpass files!
+
+Package: com.ifile
+Name: iFile
+Version: 1.9.1
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: debs/eu.heinelt.ifile_1.9.1-1_iphoneos-arm_fabius.deb
+Size: 7651982
+MD5sum: 7ed97b97e6df4407331bc58631a3e6a7
+SHA1: 9d42a109f20b2a3eaef93974d9c5843442ce0947
+SHA256: 10ab9af5fc469135a361cbe9b3bdd8c66ac99686c0a5e37f7e3754806aca751a
+Section: Tweaks
+Description: iFile Cracked

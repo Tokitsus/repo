@@ -1,0 +1,20 @@
+Origin: Jess Repo
+Label: Jess Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Static architecture manifest mapping suite indices.
+MD5Sum:
+ c079fdad7d0315cb926e8ef0ae658943 1222 Packages
+ 086f0a92518086b2d1a0b1f75f5a2e5f 626 Packages.gz
+ 086f0a92518086b2d1a0b1f75f5a2e5f 626 Packages.bz2
+SHA1:
+ e2eb825c475b2a2ca047959cb6ca9a55405cd07e 1222 Packages
+ 6066e99fc3e42a7f795ff8958d481e564f2a0fe1 626 Packages.gz
+ 6066e99fc3e42a7f795ff8958d481e564f2a0fe1 626 Packages.bz2
+SHA256:
+ 3bd3de457b83a6eb282cba04c67c1c91034e2c2495c559261d97f8844f09d7ad 1222 Packages
+ d62fc9d8b99b6ff31b6c1101700e61e58943b3bfeffefae4694cb6d7f3cba4fe 626 Packages.gz
+ d62fc9d8b99b6ff31b6c1101700e61e58943b3bfeffefae4694cb6d7f3cba4fe 626 Packages.bz2
